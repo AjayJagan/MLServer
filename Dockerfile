@@ -1,6 +1,6 @@
 ARG RUNTIMES="lightgbm sklearn xgboost"
 
-FROM python:3.12-slim AS wheel-builder
+FROM python:3.14-slim AS wheel-builder
 
 ARG RUNTIMES
 ARG POETRY_VERSION="2.1.1"
